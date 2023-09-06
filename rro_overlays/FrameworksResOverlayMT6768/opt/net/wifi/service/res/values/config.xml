@@ -18,4 +18,6 @@
     <integer translatable="false" name="config_wifi_framework_wifi_score_bad_rssi_threshold_5GHz">-90</integer>
     <!-- Integer threshold, do not connect to APs with RSSI lower than the entry threshold -->
     <integer translatable="false" name="config_wifi_framework_wifi_score_entry_rssi_threshold_5GHz">-85</integer>
+     <!-- Indicates that AP mode MAC randomization is supported on this device -->
+    <bool name="config_wifi_ap_mac_randomization_supported">true</bool>
 </resources>
