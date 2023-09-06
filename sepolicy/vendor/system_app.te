@@ -5,3 +5,7 @@ allow system_app sysfs_zram:file r_file_perms;
 # FM Radio
 get_prop(system_app, vendor_mtk_wmt_prop)
 get_prop(system_app, vendor_mtk_default_prop)
+
+# Power 
+allow system_app sysfs_battery_supply:dir { search };
+allow system_app sysfs_battery_supply:file { read open getattr };
