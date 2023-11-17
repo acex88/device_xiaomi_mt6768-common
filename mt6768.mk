@@ -93,6 +93,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libsuspend
 
+PRODUCT_PACKAGES += \
+    libshim_showlogo
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
@@ -105,6 +108,9 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.1.vendor \
     android.hardware.drm@1.2.vendor \
     android.hardware.drm@1.3.vendor
+
+PRODUCT_PACKAGES += \
+    libdrm
 
 # Disable SF configstore
 PRODUCT_PACKAGES += \
