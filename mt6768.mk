@@ -394,6 +394,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     hostapd \
     android.hardware.wifi.supplicant@1.3.vendor \
+     android.hardware.wifi.supplicant@1.4.vendor \
     android.hardware.wifi@1.3.vendor
 
 PRODUCT_PACKAGES += \
