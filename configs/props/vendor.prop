@@ -66,6 +66,12 @@ ro.vendor.mtk_zsdhdr_support=1
 ro.vendor.mtk_slow_motion_support=1
 ro.vendor.mtk_camera_app_version=3
 
+# Color
+ro.surface_flinger.has_wide_color_display=true
+persist.sys.sf.color_saturation=1.1
+persist.sys.sf.color_mode=9
+persist.sys.sf.native_mode=2
+
 # DRM
 drm.service.enabled=true
 ro.netflix.bsp_rev=MTK6768-19055-1
